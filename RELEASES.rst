@@ -2538,6 +2538,10 @@ Planned
 
 * Add ES2015 Annex B HTML comment syntax (GH-1435, GH-1436, GH-1438)
 
+* Add non-standard shebang (#! ...) command syntax, allowed on first line of
+  source if DUK_COMPILE_SHEBANG option is given to duk_compile() (GH-1380,
+  GH-1346)
+
 * Add a "global" property to the global object to provide easy access to the
   global object itself without needing idioms like
   "new Function('return this')()"; implemented based on
